@@ -17,7 +17,7 @@ The frontend is built using Dart and Flutter.
    :maxdepth: 2
    :caption: Frontend Documentation
 
-   frontend/index
+   frontend
 
 Backend
 -------
@@ -28,4 +28,4 @@ The backend is currently under development.
    :maxdepth: 2
    :caption: Backend Documentation
 
-   backend/index
+   backend
