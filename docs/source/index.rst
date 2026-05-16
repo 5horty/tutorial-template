@@ -14,8 +14,6 @@ Frontend
 The frontend is built using Dart and Flutter.
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Frontend Documentation
 
    frontend
 
@@ -25,7 +23,5 @@ Backend
 The backend is currently under development.
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Backend Documentation
-
+   
    backend
