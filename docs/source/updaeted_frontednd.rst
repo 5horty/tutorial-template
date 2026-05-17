@@ -2405,6 +2405,10 @@ This service calls the search API.
           Uri.parse(
             "http://localhost:5000/search-recipe",
           ).replace(queryParameters: {"q": name}),
+          headers: {
+            if (AuthService.sessionCookie != null)
+              'Cookie': AuthService.sessionCookie!,
+            },
         );
 
 Make a GET request to the search endpoint with the query as a URL parameter.
