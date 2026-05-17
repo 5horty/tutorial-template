@@ -938,8 +938,7 @@ by the client.
 **Important Security Note:**
 
 The current implementation stores and compares passwords as plain text. This
-is NOT secure and should only be used for a university project where simplicity
-is valued over security. In production, you should:
+is NOT secure. In production, you should:
 
 1. Hash passwords when creating accounts using ``bcrypt.hashpw()``
 2. Store the hash in the database
@@ -1162,9 +1161,6 @@ The **recipe.py** module defines a Flask blueprint for recipe management.
         return "." in filename and filename.rsplit(".", 1)[1].lower() in ALLOWED_EXTENSIONS
 
 **Explanation:**
-
-- The blueprint is named ``'recipes'``. Note the import of ``re`` (regex) is
-  present but not used - it may be leftover from earlier development.
 
 - ``ALLOWED_EXTENSIONS`` is a set of file extensions that are accepted for
   image uploads. Using a set makes membership testing faster (O(1) instead of
