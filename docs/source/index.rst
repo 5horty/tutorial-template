@@ -11,5 +11,4 @@ This project is split into two main parts:
 .. toctree::
 
    backend
-   frontend
    frontend2
