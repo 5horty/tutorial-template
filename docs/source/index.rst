@@ -12,4 +12,5 @@ This project is split into two main parts:
 
    updaeted_frontednd
    backend2
+   usage
    
