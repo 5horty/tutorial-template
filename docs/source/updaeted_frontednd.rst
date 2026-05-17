@@ -5,7 +5,7 @@ Frontend Documentation - Cook App Flutter Application
 Overview
 ========
 
-This is a Flutter-based mobile application for managing cooking recipes. The app allows users to create accounts, log in, browse recipes, search for recipes, add new recipes with images and step-by-step instructions, and follow recipes with a step-by-step guided cooking mode.
+This is a Flutter-based mobile application for learning to cook. The app allows users to create accounts, log in, browse recipes, search for recipes, add new recipes with images and step-by-step instructions, and follow recipes with a step-by-step guide.
 
 The frontend is organized into several core modules:
 - Core files (routing, themes, sessions, API responses)
