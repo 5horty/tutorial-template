@@ -12,3 +12,4 @@ This project is split into two main parts:
 
    backend
    frontend
+   frontend2
