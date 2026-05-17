@@ -10,4 +10,4 @@ This project is split into two main parts:
 
 .. toctree::
 
-   backend
+   updaeted_frontednd
